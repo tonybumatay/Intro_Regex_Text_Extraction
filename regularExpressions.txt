@@ -1,0 +1,8 @@
+Regex 1: \bhello world\b
+matches "hello world"
+
+Regex 2: \w*[aeiouAEIOU]{3}\w*
+Matches all strings with three vowels in a row. 
+
+Regex 3: ^[A-Z]{2}\d{3,4}$
+Matches an input string that is entirely a flight code: 2 upper-case letters followed by three or four digits. 
